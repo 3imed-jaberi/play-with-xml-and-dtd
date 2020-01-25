@@ -1,0 +1,44 @@
+<!ELEMENT service (client+, commande*, article+, representant+, region+,  detail*, prospection+)>
+<!ELEMENT client EMPTY>
+<!ELEMENT article EMPTY>
+<!ELEMENT commande EMPTY>
+<!ELEMENT representant EMPTY>
+<!ELEMENT region EMPTY>
+<!ELEMENT detail EMPTY>
+<!ELEMENT prospection EMPTY>
+<!ATTLIST client 
+  numCli CDATA #REQUIRED
+  nomCli CDATA #REQUIRED
+  adCli CDATA #IMPLIED
+>
+<!ATTLIST 
+  article numA CDATA #REQUIRED
+  libA CDATA #IMPLIED
+  puA CDATA #IMPLIED
+  stockA CDATA #IMPLIED
+>
+<!ATTLIST commande 
+  numC CDATA #REQUIRED
+  dateC CDATA #REQUIRED
+  numCli CDATA #REQUIRED
+  numRep CDATA #REQUIRED
+>
+<!ATTLIST representant 
+  numRep CDATA #REQUIRED
+  nomRep CDATA #REQUIRED
+  salRep CDATA #IMPLIED
+  tauxRep CDATA #IMPLIED
+>
+<!ATTLIST region 
+  nomR CDATA #REQUIRED
+  popR CDATA #IMPLIED
+>
+<!ATTLIST detail 
+  numC CDATA #REQUIRED
+  numA CDATA #REQUIRED
+  qte CDATA #REQUIRED
+>
+<!ATTLIST prospection 
+  numRep CDATA #REQUIRED
+  nomR CDATA #REQUIRED
+>
