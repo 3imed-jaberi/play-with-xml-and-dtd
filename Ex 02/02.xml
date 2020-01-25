@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE commande SYSTEM "02.dtd">
+
+<commande>
+  <titre>COMMANDE</titre>
+  <item>numC</item>
+  <item>dateC</item>
+  <item>
+    client
+    <sitem>numCli</sitem>
+    <sitem>nomCli</sitem>
+    <sitem>adCli</sitem>
+  </item>
+  <item>
+    articles
+    <sitem>numA</sitem>
+    <sitem>qte</sitem>
+  </item>
+  <item>
+    représentant
+    <sitem>numRep</sitem>
+    <sitem>nomRep</sitem>
+  </item>
+  <ligne 
+    numC="1024" 
+    dateC="03/01/2008" 
+    numCli="123" 
+    nomCli="DUBOIS"
+    adCli="Dijon" 
+    numRep="10"
+    nomRep="DUPUIS"
+  >
+    <article numA="10123" qte="20" />
+    <article numA="12345" qte="50" />
+  </ligne>
+  <ligne 
+    numC="1025" 
+    dateC="12/01/2008" 
+    numCli="123" 
+    nomCli="DUBOIS"
+    adCli="Dijon" 
+    numRep="11" 
+    nomRep="DUBALAI"
+  >
+    <article numA="10123" qte="30" />
+  </ligne>
+  <ligne 
+    numC="1026" 
+    dateC="16/01/2008" 
+    numCli="124" 
+    nomCli="DUGENOU"
+    adCli="Orléans" 
+    numRep="12" 
+    nomRep="DUCHEMIN"
+  >
+    <article numA="34567" qte="25" />
+    <article numA="65654" qte="20" />
+  </ligne>
+  <ligne 
+    numC="1027" 
+    dateC="02/02/2008" 
+    numCli="125" 
+    nomCli="DURACUIRE"
+    adCli="Bordeaux" 
+    numRep="12" 
+    nomRep="DUCHEMIN"
+  >
+    <article numA="12345" qte="15" />
+  </ligne>
+</commande>

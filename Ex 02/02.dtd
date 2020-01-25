@@ -1,0 +1,19 @@
+<!ELEMENT commande (titre, item+, ligne+)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT item ANY>
+<!ELEMENT sitem (#PCDATA)>
+<!ELEMENT ligne (article+)>
+<!ELEMENT article EMPTY>
+<!ATTLIST ligne 
+  numC CDATA #REQUIRED
+  dateC CDATA #REQUIRED
+  numCli CDATA #REQUIRED
+  nomCli CDATA #REQUIRED
+  adCli CDATA #IMPLIED
+  numRep CDATA #REQUIRED
+  nomRep CDATA #REQUIRED
+>
+<!ATTLIST article 
+  numA CDATA #REQUIRED 
+  qte CDATA #REQUIRED
+>
