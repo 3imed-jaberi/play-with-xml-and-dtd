@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tableau SYSTEM "01.dtd">
+
+<tableau>
+  <titre>Principales entreprises mondiales d'informatique : Fabricants de logiciels</titre>
+  <item>NOM</item>
+  <item>PAYS</item>
+  <item>FONDATION</item>
+  <item>CHIFFRE D'AFFAIRES</item>
+  <item>RESULTAT NET</item>
+  <item>EMPLOYES</item>
+  <ligne 
+    nom="Adobe" 
+    pays="Etats-Unis" 
+    fondation="1982" 
+    chiffre_affaires="3,15"
+    resultat_net="0,72" 
+    employes="6600" 
+  />
+  <ligne 
+    nom="Microsoft" 
+    pays="Etats-Unis" 
+    fondation="1975" 
+    chiffre_affaires="51,12"
+    resultat_net="14,07" 
+    employes="78500" 
+  />
+  <ligne 
+    nom="Novell" 
+    pays="Etats-Unis" 
+    fondation="1983" 
+    chiffre_affaires="0,92"
+    resultat_net="-0,04" 
+    employes="4100" 
+  />
+  <ligne 
+    nom="Oracle" 
+    pays="Etats-Unis" 
+    fondation="1977" 
+    chiffre_affaires="18,00"
+    resultat_net="4,27" 
+    employes="68200" 
+  />
+  <ligne 
+    nom="Symanytec" 
+    pays="Etats-Unis" 
+    fondation="1982" 
+    chiffre_affaires="5,19"
+    resultat_net="0,40" 
+    employes="17500" 
+  />
+</tableau>

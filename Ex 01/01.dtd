@@ -1,0 +1,12 @@
+<!ELEMENT tableau (titre, item+, ligne+)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT ligne EMPTY>
+<!ATTLIST 
+  ligne nom CDATA #REQUIRED
+  pays CDATA #REQUIRED
+  fondation CDATA #IMPLIED
+  chiffre_affaires CDATA #IMPLIED
+  resultat_net CDATA #IMPLIED
+  employes CDATA #IMPLIED
+>
